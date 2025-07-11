@@ -35,7 +35,7 @@ Based on the sizing procedure using `gmid-method`, we now have all the :math:`W/
    :alt: OTA design in Xschem
    :width: 600
 
-   OTA design in Xschem
+-  OTA design in Xschem
 
 Discussion of the OTA Design
 ----------------------------

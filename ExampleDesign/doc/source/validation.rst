@@ -30,7 +30,7 @@ Now that the circuit is finalized, we proceed to test its **AC behavior**, **tra
    :alt: Loop Gain Setup
    :width: 600
 
-   Loop Gain Testbench Setup
+-  Loop Gain Testbench Setup
 
 The loop gain analysis yields the following plots, which confirm that the design meets the required **gain** and **phase margin** specifications. These include plots from both **Middlebrook's** and **Tian's** loop-gain extraction techniques.
 
@@ -40,7 +40,7 @@ The loop gain analysis yields the following plots, which confirm that the design
    :alt: Loop Gain Magnitude Plot
    :width: 600
 
-   Loop Gain - Magnitude: Middlebrook vs Tian
+-  Loop Gain - Magnitude: Middlebrook vs Tian
 
 
 .. image:: _static/_fig_loopgain_phase.svg
@@ -48,7 +48,7 @@ The loop gain analysis yields the following plots, which confirm that the design
    :alt: Loop Gain Phase Plot
    :width: 600
 
-   Loop Gain - Phase: Middlebrook vs Tian
+-  Loop Gain - Phase: Middlebrook vs Tian
 
 Corner Simulations for PVT and Monte Carlo
 ==========================================
@@ -107,103 +107,103 @@ PVT and Monte Carlo Summary for foldedcascode_ota
    :alt: Gain vs Input Voltage
    :width: 600
 
-   Gain vs Input Voltage
+-  Gain vs Input Voltage
 
 .. image:: _static/gain_vs_vdd.png
    :align: center
    :alt: Gain vs Supply Voltage
    :width: 600
 
-   Gain vs Supply Voltage
+-  Gain vs Supply Voltage
 
 .. image:: _static/gain_vs_corner.png
    :align: center
    :alt: Gain vs Corner
    :width: 600
 
-   Gain vs Corner
+-  Gain vs Corner
 
 .. image:: _static/bw_vs_temp.png
    :align: center
    :alt: Bandwidth vs Temperature
    :width: 600
 
-   Bandwidth vs Temperature
+-  Bandwidth vs Temperature
 
 .. image:: _static/schematic/bw_vs_vin.png
    :align: center
    :alt: Bandwidth vs Input Voltage
    :width: 600
 
-   Bandwidth vs Input Voltage
+-  Bandwidth vs Input Voltage
 
 .. image:: _static/bw_vs_vdd.png
    :align: center
    :alt: Bandwidth vs Supply Voltage
    :width: 600
 
-   Bandwidth vs Supply Voltage
+-  Bandwidth vs Supply Voltage
 
 .. image:: _static/schematic/bw_vs_corner.png
    :align: center
    :alt: Bandwidth vs Corner
    :width: 600
 
-   Bandwidth vs Corner
+-  Bandwidth vs Corner
 
 .. image:: _static/gain_mc.png
    :align: center
    :alt: Gain Monte Carlo
    :width: 600
 
-   Gain Monte Carlo
+-  Gain Monte Carlo
 
 .. image:: _static/schematic/bw_mc.png
    :align: center
    :alt: Bandwidth Monte Carlo
    :width: 600
 
-   Bandwidth Monte Carlo
+-  Bandwidth Monte Carlo
 
 .. image:: _static/noise_vs_temp.png
    :align: center
    :alt: Noise vs Temperature
    :width: 600
 
-   Noise vs Temperature
+-  Noise vs Temperature
 
 .. image:: _static/noise_vs_vin.png
    :align: center
    :alt: Noise vs Input Voltage
    :width: 600
 
-   Noise vs Input Voltage
+-  Noise vs Input Voltage
 
 .. image:: _static/noise_vs_vdd.png
    :align: center
    :alt: Noise vs Supply Voltage
    :width: 600
 
-   Noise vs Supply Voltage
+-  Noise vs Supply Voltage
 
 .. image:: _static/noise_vs_corner.png
    :align: center
    :alt: Noise vs Corner
    :width: 600
 
-   Noise vs Corner
+-  Noise vs Corner
 
 .. image:: _static/settling_vs_temp.png
    :align: center
    :alt: Settling Time vs Temperature
    :width: 600
 
-   Settling Time vs Temperature
+-  Settling Time vs Temperature
 
 .. image:: _static/settling_vs_vin.png
    :align: center
    :alt: Settling Time vs Input Voltage
-   :width: 600
+-  :width: 600
 
    Settling Time vs Input Voltage
 
@@ -212,14 +212,14 @@ PVT and Monte Carlo Summary for foldedcascode_ota
    :alt: Settling Time vs Supply Voltage
    :width: 600
 
-   Settling Time vs Supply Voltage
+-  Settling Time vs Supply Voltage
 
 .. image:: _static/settling_vs_corner.png
    :align: center
    :alt: Settling Time vs Corner
    :width: 600
 
-   Settling Time vs Corner
+-  Settling Time vs Corner
 
 
 
