@@ -14,7 +14,7 @@ Now that the circuit is finalized, we proceed to test its **AC behavior**, **tra
    :alt: AC Analysis
    :width: 600
 
-   AC Analysis
+-  AC Analysis
 
 
 .. image:: _static/_fig_tran.svg
@@ -22,7 +22,7 @@ Now that the circuit is finalized, we proceed to test its **AC behavior**, **tra
    :alt: Transient Analysis
    :width: 600
 
-   Transient Analysis
+-  Transient Analysis
 
 
 .. image:: _static/_fig_loopgain.svg
