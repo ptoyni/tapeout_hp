@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Amazing Design'
-copyright = '2024, IHP Open PDK'
-author = 'Amazing Design Authors'
+project = 'taping out analog block'
+copyright = '2025, Hochschule Bremen'
+author = 'Hrishikesh Pangavhane, Priyanka Toyni'
 
 release = '0.1'
 version = '0.1.0'
