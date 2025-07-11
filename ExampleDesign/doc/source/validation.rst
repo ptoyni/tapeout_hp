@@ -144,7 +144,7 @@ PVT and Monte Carlo Summary for foldedcascode_ota
 
 -  Bandwidth vs Supply Voltage
 
-.. image:: _static/schematic/bw_vs_corner.png
+.. image:: _static/bw_vs_corner.png
    :align: center
    :alt: Bandwidth vs Corner
    :width: 600
@@ -158,7 +158,7 @@ PVT and Monte Carlo Summary for foldedcascode_ota
 
 -  Gain Monte Carlo
 
-.. image:: _static/schematic/bw_mc.png
+.. image:: _static/bw_mc.png
    :align: center
    :alt: Bandwidth Monte Carlo
    :width: 600
