@@ -8,7 +8,7 @@ Simulation of the OTA
 
 Now that the circuit is finalized, we proceed to test its **AC behavior**, **transient response**, and **loop gain** using both **Middlebrook's** and **Tian's** methods, as illustrated in the following figures:
 
-.. _fig-ac-xschem:
+
 .. image:: _static/_fig_ac.svg
    :align: center
    :alt: AC Analysis
@@ -16,7 +16,7 @@ Now that the circuit is finalized, we proceed to test its **AC behavior**, **tra
 
    AC Analysis
 
-.. _fig-tran-xschem:
+
 .. image:: _static/_fig_tran.svg
    :align: center
    :alt: Transient Analysis
@@ -24,7 +24,7 @@ Now that the circuit is finalized, we proceed to test its **AC behavior**, **tra
 
    Transient Analysis
 
-.. _fig-loopgain-xschem:
+
 .. image:: _static/_fig_loopgain.svg
    :align: center
    :alt: Loop Gain Setup
@@ -34,7 +34,7 @@ Now that the circuit is finalized, we proceed to test its **AC behavior**, **tra
 
 The loop gain analysis yields the following plots, which confirm that the design meets the required **gain** and **phase margin** specifications. These include plots from both **Middlebrook's** and **Tian's** loop-gain extraction techniques.
 
-.. _fig-loopgain-magnitude:
+
 .. image:: _static/_fig_loopgain_magnitude.svg
    :align: center
    :alt: Loop Gain Magnitude Plot
@@ -42,7 +42,7 @@ The loop gain analysis yields the following plots, which confirm that the design
 
    Loop Gain - Magnitude: Middlebrook vs Tian
 
-.. _fig-loopgain-phase:
+
 .. image:: _static/_fig_loopgain_phase.svg
    :align: center
    :alt: Loop Gain Phase Plot
