@@ -1,0 +1,42 @@
+** sch_path: /foss/designs/thesis_hp/designs/otas/1_schematics/ota_final_decoup.sch
+.SUBCKT ota_final_decoup AVSS IBIAS AVDD PLUS MINUS VOUT
+*.PININFO AVSS:I IBIAS:I AVDD:I PLUS:I MINUS:I VOUT:O
+M23 IBIAS IBIAS AVSS AVSS sg13_lv_nmos w=8.5u l=5u ng=4 m=1
+M24 net7 IBIAS AVSS AVSS sg13_lv_nmos w=8.5u l=5u ng=4 m=1
+M11 net7 net2 net1 AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+M12 net1 net1 AVDD AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+M18 AVSS net2 net5 AVDD sg13_lv_pmos w=14u l=0.5u ng=4 m=1
+M17 net5 net1 AVDD AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+M9 net4 net1 AVDD AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+M5 net2 net5 net4 AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+M7 net2 net12 net3 AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+M3 net3 net2 AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+M30 net6 IBIAS AVSS AVSS sg13_lv_nmos w=8.5u l=5u ng=4 m=1
+M1 net4 PLUS net6 AVSS sg13_lv_nmos w=6u l=1u ng=2 m=1
+M2 net8 MINUS net6 AVSS sg13_lv_nmos w=6u l=1u ng=2 m=1
+M37 net8 AVSS AVSS AVSS sg13_lv_nmos w=6u l=1u ng=2 m=1
+M6 VOUT net5 net8 AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+M0 net8 net1 AVDD AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+M8 VOUT net12 net9 AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+M4 net9 net2 AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+M29 net9 AVSS AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+M28 VOUT AVSS AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+M32 net8 AVDD AVDD AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+M33 VOUT AVDD AVDD AVDD sg13_lv_pmos w=7u l=2u ng=2 m=1
+M13 net10 net1 AVDD AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+M15 net10 VOUT net11 AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+M16 net11 net11 AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+M14 net12 net11 AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+M10 AVDD VOUT net12 AVSS sg13_lv_nmos w=15u l=0.5u ng=4 m=1
+M36 net4 AVSS AVSS AVSS sg13_lv_nmos w=6u l=1u ng=2 m=1
+M34 net2 AVDD AVDD AVDD sg13_lv_pmos w=7u l=2u ng=2 m=1
+M27 net3 AVSS AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+M26 net2 AVSS AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+M35 net1 AVDD AVDD AVDD sg13_lv_pmos w=7u l=2u ng=2 m=1
+M31 net11 AVSS AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+C2 VOUT AVSS cap_cmim w=25.82e-6 l=25.82e-6 m=1
+M19 AVSS net12 AVSS AVSS sg13_lv_nmos w=8u l=1u ng=4 m=1
+M20 AVSS IBIAS AVSS AVSS sg13_lv_nmos w=8u l=1u ng=4 m=1
+M21 AVDD net1 AVDD AVDD sg13_lv_pmos w=12u l=0.5u ng=4 m=1
+M22 AVDD net5 AVDD AVDD sg13_lv_pmos w=12u l=0.5u ng=4 m=1
+.ENDS
