@@ -1,6 +1,6 @@
 * Extracted by KLayout with SG13G2 LVS runset on : 15/08/2025 15:37
 
-.SUBCKT ota_final_decoup AVSS PLUS AVDD VOUT IBIAS MINUS
+.SUBCKT FMD_QNC_ota_final_decoup AVSS PLUS AVDD VOUT IBIAS MINUS
 M$1 AVSS AVSS \$18088 AVSS sg13_lv_nmos L=2u W=3u AS=0.795p AD=0.795p PS=5.56u
 + PD=5.56u
 M$2 \$18088 \$18089 AVSS AVSS sg13_lv_nmos L=2u W=3u AS=0.57p AD=0.57p PS=3.76u
@@ -76,4 +76,4 @@ M$104 AVSS IBIAS AVSS AVSS sg13_lv_nmos L=1u W=8u AS=1.82p AD=1.82p PS=11.82u
 + PD=11.82u
 M$108 AVSS \$18463 AVSS AVSS sg13_lv_nmos L=1u W=8u AS=1.82p AD=1.82p PS=11.82u
 + PD=11.82u
-.ENDS ota_final_decoup
+.ENDS FMD_QNC_ota_final_decoup

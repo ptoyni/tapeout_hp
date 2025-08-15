@@ -1,6 +1,6 @@
 #%lvsdb-klayout
 J(
- W(ota_final_decoup)
+ W(FMD_QNC_ota_final_decoup)
  U(0.001)
  L(l6 '6/0')
  L(l25)
@@ -876,7 +876,7 @@ J(
    R(l61 (0 0) (27020 27020))
   )
  )
- X(ota_final_decoup
+ X(FMD_QNC_ota_final_decoup
   R((-425170 -428090) (850000 850000))
   N(1 I(AVSS)
    R(l6 (8470 -7150) (160 160))
@@ -575094,7 +575094,7 @@ H(
  )
 )
 Z(
- X(ota_final_decoup OTA_FINAL_DECOUP 1
+ X(FMD_QNC_ota_final_decoup FMD_QNC_OTA_FINAL_DECOUP 1
   Z(
    N(13 9 1)
    N(17 17 1)
