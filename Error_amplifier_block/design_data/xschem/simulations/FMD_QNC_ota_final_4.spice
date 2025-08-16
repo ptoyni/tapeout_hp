@@ -1,5 +1,5 @@
-** sch_path: /foss/designs/thesis_hp/designs/otas/1_schematics/FMD_QNC_ota_final_decoup.sch
-.SUBCKT FMD_QNC_ota_final_decoup AVSS IBIAS AVDD PLUS MINUS VOUT
+** sch_path: /foss/designs/thesis_hp/designs/otas/1_schematics/FMD_QNC_ota_final_4.sch
+.SUBCKT FMD_QNC_ota_final_4 AVSS IBIAS AVDD PLUS MINUS VOUT
 *.PININFO AVSS:I IBIAS:I AVDD:I PLUS:I MINUS:I VOUT:O
 M23 IBIAS IBIAS AVSS AVSS sg13_lv_nmos w=8.5u l=5u ng=4 m=1
 M24 net7 IBIAS AVSS AVSS sg13_lv_nmos w=8.5u l=5u ng=4 m=1

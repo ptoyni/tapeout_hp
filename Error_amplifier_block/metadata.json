@@ -3,11 +3,11 @@
   "Shuttle": "MPW 0.13µm Jul 2025(T593)",
   "Technology": "SG13G2",
   "Design": {
-    "DesignName": "FMD_QNC_ota_final_decoup",
-    "FinalGdsName": "FMD_QNC_ota_final_decoup.gds",
-    "TopCellName": "FMD_QNC_ota_final_decoup",
-    "Width": "0.85mm",
-    "Height": "0.85mm",
+    "DesignName": "FMD_QNC_ota_final_4",
+    "FinalGdsName": "FMD_QNC_ota_final_4.gds",
+    "TopCellName": "FMD_QNC_ota_final_4",
+    "Width": "0.0mm",
+    "Height": "0.8mm",
     "NumberOfSamples": "10"
   },
   "FinalWaferThickness": "200um"
