@@ -1,5 +1,5 @@
-** sch_path: /foss/designs/thesis_hp/designs/otas/1_schematics/FMD_QNC_ota_final_4.sch
-.SUBCKT FMD_QNC_ota_final_4 AVSS IBIAS AVDD PLUS MINUS VOUT
+** sch_path: /foss/designs/thesis_hp/designs/otas/1_schematics/FMD_QNC_ota_final_esd.sch
+.SUBCKT FMD_QNC_ota_final_esd AVSS IBIAS AVDD PLUS MINUS VOUT
 *.PININFO AVSS:I IBIAS:I AVDD:I PLUS:I MINUS:I VOUT:O
 M23 IBIAS IBIAS AVSS AVSS sg13_lv_nmos w=8.5u l=5u ng=4 m=1
 M24 net7 IBIAS AVSS AVSS sg13_lv_nmos w=8.5u l=5u ng=4 m=1
@@ -35,8 +35,22 @@ M26 net2 AVSS AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
 M35 net1 AVDD AVDD AVDD sg13_lv_pmos w=7u l=2u ng=2 m=1
 M31 net11 AVSS AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
 C2 VOUT AVSS cap_cmim w=25.82e-6 l=25.82e-6 m=1
-M19 AVSS net12 AVSS AVSS sg13_lv_nmos w=8u l=1u ng=4 m=1
-M20 AVSS IBIAS AVSS AVSS sg13_lv_nmos w=8u l=1u ng=4 m=1
-M21 AVDD net1 AVDD AVDD sg13_lv_pmos w=12u l=0.5u ng=4 m=1
-M22 AVDD net5 AVDD AVDD sg13_lv_pmos w=12u l=0.5u ng=4 m=1
+X1 VOUT bondpad
+D1 AVDD VOUT AVSS diodevdd_2kv m=1
+D2 AVDD VOUT AVSS diodevss_2kv m=1
+D3 AVDD AVDD AVSS diodevdd_2kv m=1
+D4 AVDD AVDD AVSS diodevss_2kv m=1
+D5 AVDD AVSS AVSS diodevdd_2kv m=1
+D6 AVDD AVSS AVSS diodevss_2kv m=1
+X2 AVSS bondpad
+X3 AVDD bondpad
+D7 AVDD IBIAS AVSS diodevdd_2kv m=1
+D8 AVDD IBIAS AVSS diodevss_2kv m=1
+X4 IBIAS bondpad
+D9 AVDD PLUS AVSS diodevdd_2kv m=1
+D10 AVDD PLUS AVSS diodevss_2kv m=1
+X5 PLUS bondpad
+X6 MINUS bondpad
+D11 AVDD MINUS AVSS diodevdd_2kv m=1
+D12 AVDD MINUS AVSS diodevss_2kv m=1
 .ENDS
