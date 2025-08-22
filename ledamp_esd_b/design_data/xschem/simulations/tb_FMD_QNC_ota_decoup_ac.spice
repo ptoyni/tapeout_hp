@@ -1,13 +1,17 @@
-** sch_path: /foss/designs/thesis/tapeout_hp/Amplifier_with_decoupling/design_data/xschem/tb_ota_final_decoup_ac.sch
-**.subckt tb_ota_final_decoup_ac
+** sch_path: /foss/designs/thesis/tapeout_hp/ledamp_ph70_b/design_data/xschem/tb_FMD_QNC_ota_decoup_ac.sch
+**.subckt tb_FMD_QNC_ota_decoup_ac
 Vss v_ss GND 0
-Vdd v_dd GND 1.55
+Vdd v_dd GND 1.5
 Vin v_in v_ss dc 0.7 ac 1
 .save v(v_in)
 I0 v_dd net1 14u
 .save v(v_out)
 x1 v_dd net1 v_out v_out v_in v_ss FMD_QNC_ota_decoup
 **** begin user architecture code
+
+
+
+
 
 
 
@@ -53,10 +57,9 @@ print onoise_total
 **** end user architecture code
 **.ends
 
-* expanding   symbol:  /foss/designs/thesis/tapeout_hp/Amplifier_with_decoupling/design_data/xschem/FMD_QNC_ota_decoup.sym # of
-*+ pins=6
-** sym_path: /foss/designs/thesis/tapeout_hp/Amplifier_with_decoupling/design_data/xschem/FMD_QNC_ota_decoup.sym
-** sch_path: /foss/designs/thesis/tapeout_hp/Amplifier_with_decoupling/design_data/xschem/FMD_QNC_ota_decoup.sch
+* expanding   symbol:  /foss/designs/thesis/tapeout_hp/ledamp_ph70_b/design_data/xschem/FMD_QNC_ota_decoup.sym # of pins=6
+** sym_path: /foss/designs/thesis/tapeout_hp/ledamp_ph70_b/design_data/xschem/FMD_QNC_ota_decoup.sym
+** sch_path: /foss/designs/thesis/tapeout_hp/ledamp_ph70_b/design_data/xschem/FMD_QNC_ota_decoup.sch
 .subckt FMD_QNC_ota_decoup AVDD IBIAS VOUT MINUS PLUS AVSS
 *.ipin PLUS
 *.ipin MINUS

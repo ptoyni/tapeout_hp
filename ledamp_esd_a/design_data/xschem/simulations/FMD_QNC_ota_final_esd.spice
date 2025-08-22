@@ -1,0 +1,56 @@
+** sch_path: /foss/designs/thesis/tapeout_hp/ledamp_esd_a/design_data/xschem/FMD_QNC_ota_final_esd.sch
+**.subckt FMD_QNC_ota_final_esd AVDD IBIAS VOUT MINUS PLUS AVSS
+*.ipin AVSS
+*.ipin IBIAS
+*.ipin AVDD
+*.ipin PLUS
+*.ipin MINUS
+*.opin VOUT
+XM23 IBIAS IBIAS AVSS AVSS sg13_lv_nmos w=8.5u l=5u ng=4 m=1
+XM24 net7 IBIAS AVSS AVSS sg13_lv_nmos w=8.5u l=5u ng=4 m=1
+XM11 net7 net2 net1 AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+XM12 net1 net1 AVDD AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+XM18 AVSS net2 net5 AVDD sg13_lv_pmos w=14u l=0.5u ng=4 m=1
+XM17 net5 net1 AVDD AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+XM9 net4 net1 AVDD AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+XM5 net2 net5 net4 AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+XM7 net2 net12 net3 AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+XM3 net3 net2 AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+XM30 net6 IBIAS AVSS AVSS sg13_lv_nmos w=8.5u l=5u ng=4 m=1
+XM1 net4 PLUS net6 AVSS sg13_lv_nmos w=6u l=1u ng=2 m=1
+XM2 net8 MINUS net6 AVSS sg13_lv_nmos w=6u l=1u ng=2 m=1
+XM37 net8 AVSS AVSS AVSS sg13_lv_nmos w=6u l=1u ng=2 m=1
+XM6 VOUT net5 net8 AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+XM0 net8 net1 AVDD AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+XM8 VOUT net12 net9 AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+XM4 net9 net2 AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+XM29 net9 AVSS AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+XM28 VOUT AVSS AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+XM32 net8 AVDD AVDD AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+XM33 VOUT AVDD AVDD AVDD sg13_lv_pmos w=7u l=2u ng=2 m=1
+XM13 net10 net1 AVDD AVDD sg13_lv_pmos w=14u l=2u ng=4 m=1
+XM15 net10 VOUT net11 AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+XM16 net11 net11 AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+XM14 net12 net11 AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+XM10 AVDD VOUT net12 AVSS sg13_lv_nmos w=15u l=0.5u ng=4 m=1
+XM36 net4 AVSS AVSS AVSS sg13_lv_nmos w=6u l=1u ng=2 m=1
+XM34 net2 AVDD AVDD AVDD sg13_lv_pmos w=7u l=2u ng=2 m=1
+XM27 net3 AVSS AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+XM26 net2 AVSS AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+XM35 net1 AVDD AVDD AVDD sg13_lv_pmos w=7u l=2u ng=2 m=1
+XM31 net11 AVSS AVSS AVSS sg13_lv_nmos w=3u l=2u ng=2 m=1
+XC2 VOUT AVSS cap_cmim w=25.82e-6 l=25.82e-6 m=1
+XX1 VOUT bondpad size=80u shape=0 padtype=0
+XD3 AVDD AVDD AVSS diodevdd_2kv m=1
+XD4 AVDD AVDD AVSS diodevss_2kv m=1
+XD5 AVDD AVSS AVSS diodevdd_2kv m=1
+XD6 AVDD AVSS AVSS diodevss_2kv m=1
+XX2 AVSS bondpad size=80u shape=0 padtype=0
+XX3 AVDD bondpad size=80u shape=0 padtype=0
+XD7 AVDD IBIAS AVSS diodevdd_2kv m=1
+XD8 AVDD IBIAS AVSS diodevss_2kv m=1
+XX4 IBIAS bondpad size=80u shape=0 padtype=0
+XX5 PLUS bondpad size=80u shape=0 padtype=0
+XX6 MINUS bondpad size=80u shape=0 padtype=0
+**.ends
+.end
