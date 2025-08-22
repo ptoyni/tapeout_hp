@@ -91,4 +91,4 @@ value=".lib cornerMOSlv.lib mos_tt
 .include $::SG13G2_MODELS/sg13g2_bondpad.lib
 .include $::SG13G2_MODELS/sg13g2_esd.lib
 "}
-C {FMD_QNC_ota_final_esd.sym} 1610 -310 0 0 {name=x1}
+C {/foss/designs/thesis/tapeout_hp/ledamp_ph70_a/design_data/xschem/FMD_QNC_ota_final_esd.sym} 1610 -310 0 0 {name=x1}
