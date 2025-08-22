@@ -1,0 +1,3 @@
+22-Aug-2025 15:02:39 | INFO    | Your Klayout version is: KLayout 0.30.1
+22-Aug-2025 15:02:39 | INFO    | Running SG13G2 LVS checks on design /foss/designs/tapeout_hp/ledamp_esd_b/design_data/gds/FMD_QNC_ota_decoup.gds on cell FMD_QNC_ota_decoup
+22-Aug-2025 15:02:49 | INFO    | Total execution time 10.236232042312622s
