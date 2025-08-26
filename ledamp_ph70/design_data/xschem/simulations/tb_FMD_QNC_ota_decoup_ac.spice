@@ -1,4 +1,4 @@
-** sch_path: /foss/designs/thesis/tapeout_hp/ledamp_ph70_b/design_data/xschem/tb_FMD_QNC_ota_decoup_ac.sch
+** sch_path: /foss/designs/thesis/tapeout_hp/ledamp_ph70/design_data/xschem/tb_FMD_QNC_ota_decoup_ac.sch
 **.subckt tb_FMD_QNC_ota_decoup_ac
 Vss v_ss GND 0
 Vdd v_dd GND 1.5
@@ -57,9 +57,9 @@ print onoise_total
 **** end user architecture code
 **.ends
 
-* expanding   symbol:  /foss/designs/thesis/tapeout_hp/ledamp_ph70_b/design_data/xschem/FMD_QNC_ota_decoup.sym # of pins=6
-** sym_path: /foss/designs/thesis/tapeout_hp/ledamp_ph70_b/design_data/xschem/FMD_QNC_ota_decoup.sym
-** sch_path: /foss/designs/thesis/tapeout_hp/ledamp_ph70_b/design_data/xschem/FMD_QNC_ota_decoup.sch
+* expanding   symbol:  FMD_QNC_ota_decoup.sym # of pins=6
+** sym_path: /foss/designs/thesis/tapeout_hp/ledamp_ph70/design_data/xschem/FMD_QNC_ota_decoup.sym
+** sch_path: /foss/designs/thesis/tapeout_hp/ledamp_ph70/design_data/xschem/FMD_QNC_ota_decoup.sch
 .subckt FMD_QNC_ota_decoup AVDD IBIAS VOUT MINUS PLUS AVSS
 *.ipin PLUS
 *.ipin MINUS
@@ -106,14 +106,8 @@ XM20 AVSS IBIAS AVSS AVSS sg13_lv_nmos w=8u l=1u ng=4 m=1
 XM21 AVDD net1 AVDD AVDD sg13_lv_pmos w=12u l=0.5u ng=4 m=1
 XM22 AVDD net5 AVDD AVDD sg13_lv_pmos w=12u l=0.5u ng=4 m=1
 XX1 VOUT bondpad size=80u shape=0 padtype=0
-XD1 AVDD VOUT AVSS diodevdd_2kv m=1
-XD2 AVDD VOUT AVSS diodevss_2kv m=1
 XX5 PLUS bondpad size=80u shape=0 padtype=0
-XD9 AVDD MINUS AVSS diodevdd_2kv m=1
-XD10 AVDD MINUS AVSS diodevss_2kv m=1
 XX6 MINUS bondpad size=80u shape=0 padtype=0
-XD11 AVDD PLUS AVSS diodevdd_2kv m=1
-XD12 AVDD PLUS AVSS diodevss_2kv m=1
 XD3 AVDD AVDD AVSS diodevdd_2kv m=1
 XD4 AVDD AVDD AVSS diodevss_2kv m=1
 XD5 AVDD AVSS AVSS diodevdd_2kv m=1
